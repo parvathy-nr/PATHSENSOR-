@@ -69,7 +69,7 @@ Edit these constants at the top of `pathsensor/pathsensor.ino`:
 
 - 🔴 **Live demo video:** [https://drive.google.com/file/d/1wg968wVCWe_v7cqkw_OpEXzZd6r5uQPg/view?usp=drivesdk]
 - 📹 **Demo video :** [https://drive.google.com/file/d/1wg968wVCWe_v7cqkw_OpEXzZd6r5uQPg/view?usp=drivesdk]
-- 📊 **Presentation:** []
+- 📊 **Presentation:** [https://docs.google.com/presentation/d/1rgsYyrZ0eebTlHzdl_aWPPQdQuOz53d7b4Hp9P68TGU/edit?usp=drivesdk]
 
 ## 📊 **Pitch Deck**
 
@@ -81,7 +81,7 @@ PathSensor is a low-cost obstacle alert built from an Arduino, an ultrasonic sen
 
 The deck begins with the problem: obstacles that go unnoticed in low light or when attention is elsewhere, and the people they affect, such as low-light walkers, low-vision users and workers in cluttered spaces. It then explains why this idea makes sense now and why we are the ones to build it. Next comes the solution in action, showing how the alarm sounds when an object comes within 50 cm. The tech approach explains the components and the simple distance logic behind it. After that, we cover the value PathSensor offers and our go-to-market plan, starting with schools, workshops and local NGOs. The deck closes with our roadmap and the main risks, along with how we plan to handle them.
 
-🔗 **Presentation link:** []
+🔗 **Presentation link:** [https://docs.google.com/presentation/d/1rgsYyrZ0eebTlHzdl_aWPPQdQuOz53d7b4Hp9P68TGU/edit?usp=drivesdk]
 
 ## 🔮 **Possible Improvements**
 
