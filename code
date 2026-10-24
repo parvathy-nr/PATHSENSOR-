@@ -1,0 +1,53 @@
+// Ultrasonic proximity alarm using HC-SR04 and a buzzer
+
+const int trigPin = 3;
+const int echoPin = 2;
+const int buzzer  = 5;
+
+// Speed of sound in cm per microsecond (343 m/s). Adjust for temperature/environment.
+const float speedOfSound = 0.0343;
+
+// Distance (cm) at or below which the buzzer sounds
+const int alarmDistance = 50;
+
+long duration;  // Echo pulse length in microseconds
+int distance;   // Calculated distance in cm
+
+void setup() {
+  pinMode(trigPin, OUTPUT);
+  pinMode(echoPin, INPUT);
+  pinMode(buzzer, OUTPUT);
+
+  Serial.begin(9600);  // Start serial communication
+}
+
+void loop() {
+  // Clear the trigger pin
+  digitalWrite(trigPin, LOW);
+  delayMicroseconds(2);
+
+  // Send a 10 µs pulse to trigger the sensor
+  digitalWrite(trigPin, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(trigPin, LOW);
+
+  // Measure how long the echo pin stays HIGH
+  duration = pulseIn(echoPin, HIGH);
+
+  // Convert to distance in cm (divide by 2 for the round trip)
+  distance = (duration * speedOfSound) / 2;
+
+  // Buzzer ON if object is within the alarm distance, otherwise OFF
+  if (distance <= alarmDistance) {
+    digitalWrite(buzzer, HIGH);
+  } else {
+    digitalWrite(buzzer, LOW);
+  }
+
+  // Report the distance
+  Serial.print("Distance: ");
+  Serial.println(distance);
+
+  // Short delay to avoid flooding the serial monitor
+  delay(100);
+}
