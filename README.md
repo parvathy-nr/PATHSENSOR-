@@ -71,6 +71,18 @@ Edit these constants at the top of `pathsensor/pathsensor.ino`:
 - 📹 **Demo video :** [https://drive.google.com/file/d/1wg968wVCWe_v7cqkw_OpEXzZd6r5uQPg/view?usp=drivesdk]
 - 📊 **Presentation:** []
 
+## 📊 **Pitch Deck**
+
+**🎤 Introduction**
+
+PathSensor is a low-cost obstacle alert built from an Arduino, an ultrasonic sensor and a buzzer. Our pitch deck presents the idea in six short slides, so you can see the problem we set out to solve, how the prototype works and where we plan to take it next.
+
+**📑 What's inside**
+
+The deck begins with the problem: obstacles that go unnoticed in low light or when attention is elsewhere, and the people they affect, such as low-light walkers, low-vision users and workers in cluttered spaces. It then explains why this idea makes sense now and why we are the ones to build it. Next comes the solution in action, showing how the alarm sounds when an object comes within 50 cm. The tech approach explains the components and the simple distance logic behind it. After that, we cover the value PathSensor offers and our go-to-market plan, starting with schools, workshops and local NGOs. The deck closes with our roadmap and the main risks, along with how we plan to handle them.
+
+🔗 **Presentation link:** []
+
 ## 🔮 **Possible Improvements**
 
 - 📡 **Better sensors:** Swap the HC-SR04 for a more accurate, longer-range sensor such as LiDAR or a waterproof ultrasonic sensor.
