@@ -67,7 +67,7 @@ Edit these constants at the top of `pathsensor/pathsensor.ino`:
 
 ## 🎬 **Demo**
 
-- 🔴 **Live demo video:** [https://drive.google.com/file/d/1wg968wVCWe_v7cqkw_OpEXzZd6r5uQPg/view?usp=drivesdk]
+- 🔴 **Live demo video:** [https://drive.google.com/file/d/1knOPXnznZla21qEjaLP2RiTfKoWBHA8t/view?usp=drivesdk]
 - 📹 **Demo video :** [https://drive.google.com/file/d/1wg968wVCWe_v7cqkw_OpEXzZd6r5uQPg/view?usp=drivesdk]
 - 📊 **Presentation:** [https://docs.google.com/presentation/d/1rgsYyrZ0eebTlHzdl_aWPPQdQuOz53d7b4Hp9P68TGU/edit?usp=drivesdk]
 
